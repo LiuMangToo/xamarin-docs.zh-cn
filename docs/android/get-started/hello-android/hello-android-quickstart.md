@@ -213,7 +213,7 @@ namespace Phoneword
 
 ```csharp
 // Get our UI controls from the loaded layout
-EditText phoneNumberText = FindViewById<EditText>(Resource.Id.PhoneNumberText);
+TextView phoneNumberText = FindViewById<TextView>(Resource.Id.PhoneNumberText);
 TextView translatedPhoneWord = FindViewById<TextView>(Resource.Id.TranslatedPhoneWord);
 Button translateButton = FindViewById<Button>(Resource.Id.TranslateButton);
 ```
